@@ -1,0 +1,32 @@
+{
+  "name": "tipcc-tip-socket",
+  "version": "1.0.0",
+  "main": "src/index",
+  "author": "Walledgarden",
+  "description": "A simple Transmitter for tips made with tip.cc using its channel logs over a websocket server.",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "prettify": "npx prettier --write .",
+    "format": "npx prettier --write . && npx eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "serve": "npx tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.2",
+    "typescript": "^4.8.3",
+    "ws": "^8.8.1"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.3",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
