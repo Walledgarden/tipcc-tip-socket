@@ -1,4 +1,4 @@
-# tip.cc tip socket
+# tip.cc Tip Socket
 > With this Node.JS App, you can easily broadcast tip.cc tips made in a Discord Server over a WebSocket by reading the tip.cc log channel messages.
 
 ## Features
